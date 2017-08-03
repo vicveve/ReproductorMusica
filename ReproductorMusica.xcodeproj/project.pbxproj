@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57637C7D1F2E9EA700831841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57637C7C1F2E9EA700831841 /* AppDelegate.swift */; };
+		57637C821F2E9EA700831841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57637C801F2E9EA700831841 /* Main.storyboard */; };
+		57637C841F2E9EA700831841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57637C831F2E9EA700831841 /* Assets.xcassets */; };
+		57637C871F2E9EA700831841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57637C851F2E9EA700831841 /* LaunchScreen.storyboard */; };
+		57637C8F1F2EA09B00831841 /* CancionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57637C8E1F2EA09B00831841 /* CancionesViewController.swift */; };
+		57637C921F2EA1C400831841 /* bunbury.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57637C911F2EA1C400831841 /* bunbury.jpeg */; };
+		57637C941F2EA1D400831841 /* cafeTacvba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57637C931F2EA1D400831841 /* cafeTacvba.jpeg */; };
+		57637C961F2EA1DE00831841 /* guns.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57637C951F2EA1DE00831841 /* guns.jpeg */; };
+		57637C981F2EA21D00831841 /* placebo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57637C971F2EA21D00831841 /* placebo.jpeg */; };
+		57637C9A1F2EA22C00831841 /* The Cranberries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57637C991F2EA22C00831841 /* The Cranberries.jpg */; };
+		57637C9C1F2EA44500831841 /* cancionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57637C9B1F2EA44500831841 /* cancionClass.swift */; };
+		57637C9E1F2EA7AC00831841 /* ReproductorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57637C9D1F2EA7AC00831841 /* ReproductorViewController.swift */; };
+		57637CA11F2EA8AD00831841 /* AnimalInstinct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57637CA01F2EA8AD00831841 /* AnimalInstinct.mp3 */; };
+		57637CA31F2EA8B900831841 /* Aprovechate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57637CA21F2EA8B900831841 /* Aprovechate.mp3 */; };
+		57637CA51F2EA8C500831841 /* ApuestaporelRocanrol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57637CA41F2EA8C500831841 /* ApuestaporelRocanrol.mp3 */; };
+		57637CA71F2EA8CF00831841 /* EveryYouEvery.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57637CA61F2EA8CF00831841 /* EveryYouEvery.m4a */; };
+		57637CA91F2EA8DE00831841 /* SweetChild.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57637CA81F2EA8DE00831841 /* SweetChild.mp3 */; };
+		57637CAB1F2EB9EE00831841 /* sinportada.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57637CAA1F2EB9EE00831841 /* sinportada.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57637C791F2E9EA700831841 /* ReproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57637C7C1F2E9EA700831841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57637C811F2E9EA700831841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57637C831F2E9EA700831841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57637C861F2E9EA700831841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57637C881F2E9EA700831841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57637C8E1F2EA09B00831841 /* CancionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesViewController.swift; sourceTree = "<group>"; };
+		57637C911F2EA1C400831841 /* bunbury.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bunbury.jpeg; sourceTree = "<group>"; };
+		57637C931F2EA1D400831841 /* cafeTacvba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafeTacvba.jpeg; sourceTree = "<group>"; };
+		57637C951F2EA1DE00831841 /* guns.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guns.jpeg; sourceTree = "<group>"; };
+		57637C971F2EA21D00831841 /* placebo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placebo.jpeg; sourceTree = "<group>"; };
+		57637C991F2EA22C00831841 /* The Cranberries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Cranberries.jpg"; sourceTree = "<group>"; };
+		57637C9B1F2EA44500831841 /* cancionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cancionClass.swift; sourceTree = "<group>"; };
+		57637C9D1F2EA7AC00831841 /* ReproductorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReproductorViewController.swift; sourceTree = "<group>"; };
+		57637CA01F2EA8AD00831841 /* AnimalInstinct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnimalInstinct.mp3; sourceTree = "<group>"; };
+		57637CA21F2EA8B900831841 /* Aprovechate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aprovechate.mp3; sourceTree = "<group>"; };
+		57637CA41F2EA8C500831841 /* ApuestaporelRocanrol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ApuestaporelRocanrol.mp3; sourceTree = "<group>"; };
+		57637CA61F2EA8CF00831841 /* EveryYouEvery.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EveryYouEvery.m4a; sourceTree = "<group>"; };
+		57637CA81F2EA8DE00831841 /* SweetChild.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SweetChild.mp3; sourceTree = "<group>"; };
+		57637CAA1F2EB9EE00831841 /* sinportada.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinportada.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57637C761F2E9EA700831841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57637C701F2E9EA700831841 = {
+			isa = PBXGroup;
+			children = (
+				57637C7B1F2E9EA700831841 /* ReproductorMusica */,
+				57637C7A1F2E9EA700831841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57637C7A1F2E9EA700831841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57637C791F2E9EA700831841 /* ReproductorMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57637C7B1F2E9EA700831841 /* ReproductorMusica */ = {
+			isa = PBXGroup;
+			children = (
+				57637CA21F2EA8B900831841 /* Aprovechate.mp3 */,
+				57637CA01F2EA8AD00831841 /* AnimalInstinct.mp3 */,
+				57637CA41F2EA8C500831841 /* ApuestaporelRocanrol.mp3 */,
+				57637CA61F2EA8CF00831841 /* EveryYouEvery.m4a */,
+				57637CA81F2EA8DE00831841 /* SweetChild.mp3 */,
+				57637C901F2EA19400831841 /* Portadas */,
+				57637C7C1F2E9EA700831841 /* AppDelegate.swift */,
+				57637C801F2E9EA700831841 /* Main.storyboard */,
+				57637C831F2E9EA700831841 /* Assets.xcassets */,
+				57637C851F2E9EA700831841 /* LaunchScreen.storyboard */,
+				57637C881F2E9EA700831841 /* Info.plist */,
+				57637C8E1F2EA09B00831841 /* CancionesViewController.swift */,
+				57637C9B1F2EA44500831841 /* cancionClass.swift */,
+				57637C9D1F2EA7AC00831841 /* ReproductorViewController.swift */,
+			);
+			path = ReproductorMusica;
+			sourceTree = "<group>";
+		};
+		57637C901F2EA19400831841 /* Portadas */ = {
+			isa = PBXGroup;
+			children = (
+				57637C971F2EA21D00831841 /* placebo.jpeg */,
+				57637C951F2EA1DE00831841 /* guns.jpeg */,
+				57637CAA1F2EB9EE00831841 /* sinportada.jpeg */,
+				57637C931F2EA1D400831841 /* cafeTacvba.jpeg */,
+				57637C991F2EA22C00831841 /* The Cranberries.jpg */,
+				57637C911F2EA1C400831841 /* bunbury.jpeg */,
+			);
+			name = Portadas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57637C781F2E9EA700831841 /* ReproductorMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57637C8B1F2E9EA700831841 /* Build configuration list for PBXNativeTarget "ReproductorMusica" */;
+			buildPhases = (
+				57637C751F2E9EA700831841 /* Sources */,
+				57637C761F2E9EA700831841 /* Frameworks */,
+				57637C771F2E9EA700831841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorMusica;
+			productName = ReproductorMusica;
+			productReference = 57637C791F2E9EA700831841 /* ReproductorMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57637C711F2E9EA700831841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victor Ernesto Velasco Esquivel";
+				TargetAttributes = {
+					57637C781F2E9EA700831841 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57637C741F2E9EA700831841 /* Build configuration list for PBXProject "ReproductorMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57637C701F2E9EA700831841;
+			productRefGroup = 57637C7A1F2E9EA700831841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57637C781F2E9EA700831841 /* ReproductorMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57637C771F2E9EA700831841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57637CA91F2EA8DE00831841 /* SweetChild.mp3 in Resources */,
+				57637C961F2EA1DE00831841 /* guns.jpeg in Resources */,
+				57637C871F2E9EA700831841 /* LaunchScreen.storyboard in Resources */,
+				57637CA51F2EA8C500831841 /* ApuestaporelRocanrol.mp3 in Resources */,
+				57637CAB1F2EB9EE00831841 /* sinportada.jpeg in Resources */,
+				57637C841F2E9EA700831841 /* Assets.xcassets in Resources */,
+				57637C9A1F2EA22C00831841 /* The Cranberries.jpg in Resources */,
+				57637CA71F2EA8CF00831841 /* EveryYouEvery.m4a in Resources */,
+				57637C941F2EA1D400831841 /* cafeTacvba.jpeg in Resources */,
+				57637CA31F2EA8B900831841 /* Aprovechate.mp3 in Resources */,
+				57637C821F2E9EA700831841 /* Main.storyboard in Resources */,
+				57637CA11F2EA8AD00831841 /* AnimalInstinct.mp3 in Resources */,
+				57637C981F2EA21D00831841 /* placebo.jpeg in Resources */,
+				57637C921F2EA1C400831841 /* bunbury.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57637C751F2E9EA700831841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57637C8F1F2EA09B00831841 /* CancionesViewController.swift in Sources */,
+				57637C9C1F2EA44500831841 /* cancionClass.swift in Sources */,
+				57637C9E1F2EA7AC00831841 /* ReproductorViewController.swift in Sources */,
+				57637C7D1F2E9EA700831841 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57637C801F2E9EA700831841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57637C811F2E9EA700831841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57637C851F2E9EA700831841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57637C861F2E9EA700831841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57637C891F2E9EA700831841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57637C8A1F2E9EA700831841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57637C8C1F2E9EA700831841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.VEVE.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57637C8D1F2E9EA700831841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.VEVE.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57637C741F2E9EA700831841 /* Build configuration list for PBXProject "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57637C891F2E9EA700831841 /* Debug */,
+				57637C8A1F2E9EA700831841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57637C8B1F2E9EA700831841 /* Build configuration list for PBXNativeTarget "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57637C8C1F2E9EA700831841 /* Debug */,
+				57637C8D1F2E9EA700831841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57637C711F2E9EA700831841 /* Project object */;
+}
